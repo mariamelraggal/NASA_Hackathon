@@ -34,6 +34,7 @@ header nav {
 header nav .logo a img{
     max-width: 150px;
     max-height: 150px;
+    margin-left: 30px;
 }
 
 header nav .nav-right {
@@ -71,6 +72,7 @@ header nav .search > div {
     align-items: center;
     padding: 10px 15px;
     border-radius: 50px;
+    margin-right: 30px;
 }
 
 header nav .search > div input {
