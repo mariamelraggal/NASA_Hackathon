@@ -1,0 +1,14 @@
+.homeImg {
+    height: 350px;
+    width: 350px;
+}
+
+.homeImg #superhero {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
