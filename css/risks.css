@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import './variables.css';
+
+.risk-body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    margin-top: 10%;
+    margin-right: 25%;
+    width: 50%;
+    border: 0.1px solid red;
+    font-size: 50px;
+}
+.selectors{
+    margin-top: 10%;
+    margin-left: 70px;
+   display: block; 
+   border: 0.1px solid red;
+   width: 50px; 
+}
+.selectors button{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    background-color: var(--primary);
+    color: silver;
+}
+.selectors button:hover{
+    background-color: var(--pure);
+    color: darkslategray;
+}
