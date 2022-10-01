@@ -1,0 +1,110 @@
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: var(--pure);
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(0,0,0,1),rgba(0,0,0,0.2)), url('../img/background2.jpg');
+    background-size: cover;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: var(--pure);
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+
+.name {
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 100%;
+    color: var(--dark);
+}
+
+.description {
+    font-size: 14px;
+    color: var(--gray);
+    text-align: center;
+}
+
+.moreBtn {
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: blueviolet;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.moreBtn:hover {
+    background: blueviolet;
+}
+
+.moreBtn a{
+    text-decoration: none;
+    color: var(--pure);
+}
+
+.title {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Oswald', sans-serif;
+}
