@@ -98,6 +98,16 @@ header .home {
     margin-left: 40px;
 }
 
+.homeText h1 span {
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 8px #660000;
+}
+
+.homeText h1 {
+    color: var(--mild);
+}
+
 .btn {
     margin-top: 20px;
     padding: 8px 30px;
@@ -130,5 +140,16 @@ header .home {
 .btn-secondary:hover {
     background: var(--pure);
     color: var(--dark);
+}
+
+.homeImg img {
+    transform: rotate(20deg);
+    animation: moveInSpace 12s ease-in-out infinite alternate;
+}
+
+@keyframes moveInSpace {
+    50% {
+       transform: translateY(100px) rotate(-30deg) scale(0.8); 
+    }
 }
 
