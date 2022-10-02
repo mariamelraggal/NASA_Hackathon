@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superhero</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/gameStyle.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 </head>
 <body>
@@ -18,7 +19,7 @@
             </div>
             <div class="nav-right">
                 <div class="nav-links">
-                    <a href="#">Home</a>
+                    <a href="homepage.html">Home</a>
                     <div class="dropdown-item">
                     <a  class="risk-button" href="#">Risks  <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown-list">
@@ -38,18 +39,15 @@
                 </div>
             </div>
         </nav>
-        <div class="home">
-            <div class="homeText">
-                <h1><span>Going to space is not as easy as it seems!</span><br>There can be multiple problems that may arise that astronauts deal with in their missions.</h1>
-                <div>
-                    <button class="btn btn-primary"><a href="mentalRisk.html">Explore Space Mental Risks</a></button>
-                    <button class="btn btn-primary"><a href="physicalRisk.html">Explore Space Physical Risks</a></button>
-                </div>
-            </div>
-            <div class="homeImg">
-                <img src="./img/astronaut.png" alt="astronaut">
-            </div>                
+        <div id="game">
+            <div id="supremo"></div>
+            <div id="rock"></div>
+        </div>
+        <div class="score">
+            <h1>Score = </h1>
+            <h1 id="score">0</h1>
         </div>
     </header>
 </body>
+<script src="./js/superheroGame.js"></script>
 </html>
