@@ -7,8 +7,51 @@
     max-width: 100%;
     max-height: 100%;
 }
-
+/* 
 header {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
-}
+} */
 
+.description-card{
+    border: 0.1px transparent solid;
+    border-radius: 25px;
+    position: relative;
+}
+.description-card .type1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    position: absolute;
+    margin-left: 15%;
+    width: 700px;
+    height: 600px;
+    border-radius: 25px;
+    background-image: url("../img/galaxy2.jfif");
+    box-shadow: 3px 3px 8px grey;
+}
+.description-card .type2{
+    border-radius: 25px;
+    margin-top: 10%;
+    margin-left: 45%;
+    padding-left: 10%;
+    width: 800px;
+    height: 600px;
+    background-image: url("../img/greyspace.jpg");
+    box-shadow: 3px 3px 8px grey;
+    margin-bottom: 10%;
+    padding-top: 20px;
+}
+.description-card a{
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 8px #2a52be;
+    font-family: 'Oswald', sans-serif;
+
+}
+.description-card p{
+    margin-top: 20px;
+    font-size: 28px;
+    color: var(--mild);
+    -webkit-text-stroke-width: 10px;
+    -webkit-text-stroke: black;
+}
